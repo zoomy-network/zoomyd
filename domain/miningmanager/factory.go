@@ -1,12 +1,13 @@
 package miningmanager
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensusreference"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/domain/miningmanager/blocktemplatebuilder"
-	mempoolpkg "github.com/kaspanet/kaspad/domain/miningmanager/mempool"
 	"sync"
 	"time"
+
+	"github.com/zoomy-network/zoomyd/domain/consensusreference"
+	"github.com/zoomy-network/zoomyd/domain/dagconfig"
+	"github.com/zoomy-network/zoomyd/domain/miningmanager/blocktemplatebuilder"
+	mempoolpkg "github.com/zoomy-network/zoomyd/domain/miningmanager/mempool"
 )
 
 // Factory instantiates new mining managers

@@ -3,8 +3,8 @@ package serialization
 import (
 	"math"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
 )
 
 // DomainTransactionToDbTransaction converts DomainTransaction to DbTransaction

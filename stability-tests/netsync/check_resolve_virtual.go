@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
+	"github.com/zoomy-network/zoomyd/stability-tests/common/rpc"
 	"time"
 )
 

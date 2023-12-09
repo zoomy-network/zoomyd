@@ -1,10 +1,10 @@
 package blockvalidator
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/ruleerrors"
 )
 
 func (v *blockValidator) validateHeaderPruningPoint(stagingArea *model.StagingArea, blockHash *externalapi.DomainHash) error {

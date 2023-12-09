@@ -1,14 +1,15 @@
 package ready
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
 	"sync/atomic"
 
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
+	"github.com/zoomy-network/zoomyd/app/protocol/common"
+
 	"github.com/pkg/errors"
+	peerpkg "github.com/zoomy-network/zoomyd/app/protocol/peer"
+	"github.com/zoomy-network/zoomyd/app/protocol/protocolerrors"
+	routerpkg "github.com/zoomy-network/zoomyd/infrastructure/network/netadapter/router"
 )
 
 // HandleReady notify the other peer that peer is ready for messages, and wait for the other peer

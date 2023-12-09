@@ -1,12 +1,12 @@
 package flowcontext
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
+	"github.com/zoomy-network/zoomyd/app/protocol/common"
+	peerpkg "github.com/zoomy-network/zoomyd/app/protocol/peer"
+	"github.com/zoomy-network/zoomyd/infrastructure/network/connmanager"
+	"github.com/zoomy-network/zoomyd/infrastructure/network/netadapter"
 )
 
 // NetAdapter returns the net adapter that is associated to the flow context.

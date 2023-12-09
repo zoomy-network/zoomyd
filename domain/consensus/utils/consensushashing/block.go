@@ -3,11 +3,10 @@ package consensushashing
 import (
 	"io"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/serialization"
-
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/hashes"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/serialization"
 )
 
 // BlockHash returns the given block's hash

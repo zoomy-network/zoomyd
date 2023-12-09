@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/stability-tests/common"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/infrastructure/logger"
+	"github.com/zoomy-network/zoomyd/stability-tests/common"
 )
 
 type commandFailure struct {

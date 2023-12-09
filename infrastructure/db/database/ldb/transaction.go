@@ -1,9 +1,9 @@
 package ldb
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb"
+	"github.com/zoomy-network/zoomyd/infrastructure/db/database"
 )
 
 // LevelDBTransaction is a thin wrapper around native leveldb

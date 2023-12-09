@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/util/panics"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/stability-tests/common"
+	"github.com/zoomy-network/zoomyd/util/panics"
 )
 
 const (

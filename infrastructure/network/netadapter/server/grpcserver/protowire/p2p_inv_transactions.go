@@ -1,8 +1,8 @@
 package protowire
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
 )
 
 func (x *KaspadMessage_InvTransactions) toAppMessage() (appmessage.Message, error) {

@@ -1,8 +1,8 @@
 package binaryserialization
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
 )
 
 // SerializeHash serializes hash to a slice of bytes

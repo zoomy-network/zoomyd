@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
+	"github.com/zoomy-network/zoomyd/app/protocol/protocolerrors"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
 )
 
 const (

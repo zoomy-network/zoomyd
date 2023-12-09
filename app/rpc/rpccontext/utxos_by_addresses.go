@@ -2,12 +2,13 @@ package rpccontext
 
 import (
 	"encoding/hex"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
-	"github.com/kaspanet/kaspad/util"
-	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/utxoindex"
+	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/txscript"
+	"github.com/zoomy-network/zoomyd/util"
+
+	"github.com/zoomy-network/zoomyd/app/appmessage"
+	"github.com/zoomy-network/zoomyd/domain/utxoindex"
 )
 
 // ConvertUTXOOutpointEntryPairsToUTXOsByAddressesEntries converts

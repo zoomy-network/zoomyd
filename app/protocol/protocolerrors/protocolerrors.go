@@ -1,8 +1,8 @@
 package protocolerrors
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/ruleerrors"
 )
 
 // ProtocolError is an error that signifies a violation

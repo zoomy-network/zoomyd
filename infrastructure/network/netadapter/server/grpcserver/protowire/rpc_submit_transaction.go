@@ -3,8 +3,8 @@ package protowire
 import (
 	"math"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
 )
 
 func (x *KaspadMessage_SubmitTransactionRequest) toAppMessage() (appmessage.Message, error) {

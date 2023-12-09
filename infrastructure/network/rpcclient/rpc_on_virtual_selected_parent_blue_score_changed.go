@@ -1,9 +1,9 @@
 package rpcclient
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
+	routerpkg "github.com/zoomy-network/zoomyd/infrastructure/network/netadapter/router"
 )
 
 // RegisterForVirtualSelectedParentBlueScoreChangedNotifications sends an RPC request respective to the function's

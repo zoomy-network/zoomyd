@@ -2,15 +2,15 @@ package blockbuilder
 
 import (
 	"encoding/binary"
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/model/testapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/blockheader"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/testapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/blockheader"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/constants"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/transactionhelper"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/txscript"
+	"github.com/zoomy-network/zoomyd/infrastructure/logger"
 	"math/big"
 	"sort"
 )

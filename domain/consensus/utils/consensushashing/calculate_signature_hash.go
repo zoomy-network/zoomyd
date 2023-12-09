@@ -1,11 +1,11 @@
 package consensushashing
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/serialization"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/subnetworks"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/hashes"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/serialization"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/subnetworks"
 )
 
 // SigHashType represents hash type bits at the end of a signature.

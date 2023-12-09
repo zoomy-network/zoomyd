@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/protocol/common"
 )
 
 func sendMessages(address string, messagesChan <-chan []byte) error {

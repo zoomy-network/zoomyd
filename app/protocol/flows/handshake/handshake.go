@@ -3,19 +3,19 @@ package handshake
 import (
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/domain"
+	"github.com/zoomy-network/zoomyd/domain"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
+	"github.com/zoomy-network/zoomyd/app/protocol/common"
+	"github.com/zoomy-network/zoomyd/app/protocol/protocolerrors"
+	"github.com/zoomy-network/zoomyd/infrastructure/network/addressmanager"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/zoomy-network/zoomyd/infrastructure/config"
+	"github.com/zoomy-network/zoomyd/infrastructure/network/netadapter"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
+	peerpkg "github.com/zoomy-network/zoomyd/app/protocol/peer"
+	routerpkg "github.com/zoomy-network/zoomyd/infrastructure/network/netadapter/router"
 )
 
 // HandleHandshakeContext is the interface for the context needed for the HandleHandshake flow.

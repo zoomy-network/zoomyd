@@ -3,11 +3,11 @@ package utxoindex
 import (
 	"encoding/binary"
 
-	"github.com/kaspanet/kaspad/domain/consensus/database/binaryserialization"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/database/binaryserialization"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/infrastructure/db/database"
+	"github.com/zoomy-network/zoomyd/infrastructure/logger"
 )
 
 var utxoIndexBucket = database.MakeBucket([]byte("utxo-index"))

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
 )
 
 // AddressPriority type is used to describe the hierarchy of local address

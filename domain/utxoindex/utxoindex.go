@@ -1,11 +1,12 @@
 package utxoindex
 
 import (
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
 	"sync"
+
+	"github.com/zoomy-network/zoomyd/domain"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/infrastructure/db/database"
+	"github.com/zoomy-network/zoomyd/infrastructure/logger"
 )
 
 // UTXOIndex maintains an index between transaction scriptPublicKeys

@@ -3,9 +3,9 @@ package ruleerrors
 import (
 	"fmt"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/consensushashing"
 )
 
 // These constants are used to identify a specific RuleError.

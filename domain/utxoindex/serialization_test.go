@@ -2,11 +2,12 @@ package utxoindex
 
 import (
 	"encoding/binary"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/pkg/errors"
 	"io"
 	"math/rand"
 	"testing"
+
+	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
 )
 
 func Test_serializeHashes(t *testing.T) {

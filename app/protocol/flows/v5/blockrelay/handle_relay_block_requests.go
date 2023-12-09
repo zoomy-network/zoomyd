@@ -1,12 +1,12 @@
 package blockrelay
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
+	peerpkg "github.com/zoomy-network/zoomyd/app/protocol/peer"
+	"github.com/zoomy-network/zoomyd/app/protocol/protocolerrors"
+	"github.com/zoomy-network/zoomyd/domain"
+	"github.com/zoomy-network/zoomyd/infrastructure/network/netadapter/router"
 )
 
 // RelayBlockRequestsContext is the interface for the context needed for the HandleRelayBlockRequests flow.

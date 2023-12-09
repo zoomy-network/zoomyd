@@ -1,12 +1,12 @@
 package ldb
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb"
 	ldbErrors "github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/zoomy-network/zoomyd/infrastructure/db/database"
 )
 
 // LevelDB defines a thin wrapper around leveldb.

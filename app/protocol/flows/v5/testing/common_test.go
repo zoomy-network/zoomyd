@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/protocol/protocolerrors"
 )
 
 func checkFlowError(t *testing.T, err error, isProtocolError bool, shouldBan bool, contains string) {

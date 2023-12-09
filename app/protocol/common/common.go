@@ -1,9 +1,10 @@
 package common
 
 import (
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
 	"time"
+
+	peerpkg "github.com/zoomy-network/zoomyd/app/protocol/peer"
+	routerpkg "github.com/zoomy-network/zoomyd/infrastructure/network/netadapter/router"
 
 	"github.com/pkg/errors"
 )

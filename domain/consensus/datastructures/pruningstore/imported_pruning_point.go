@@ -2,10 +2,10 @@ package pruningstore
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/kaspanet/kaspad/domain/consensus/database/serialization"
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/database/serialization"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
 )
 
 var importedPruningPointUTXOsBucketName = []byte("imported-pruning-point-utxos")

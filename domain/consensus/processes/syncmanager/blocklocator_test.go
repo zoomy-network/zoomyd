@@ -4,12 +4,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/testutils"
+	"github.com/zoomy-network/zoomyd/infrastructure/db/database"
 )
 
 func TestCreateBlockLocator(t *testing.T) {

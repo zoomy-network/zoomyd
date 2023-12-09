@@ -1,10 +1,11 @@
 package serialization
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/utxo"
-	"github.com/pkg/errors"
 	"math"
+
+	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/utxo"
 )
 
 // ScriptPublicKeyToDBScriptPublicKey converts ScriptPublicKey to DBScriptPublicKey

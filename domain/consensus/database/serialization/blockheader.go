@@ -1,11 +1,12 @@
 package serialization
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/blockheader"
-	"github.com/pkg/errors"
 	"math"
 	"math/big"
+
+	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/blockheader"
 )
 
 // DomainBlockHeaderToDbBlockHeader converts BlockHeader to DbBlockHeader

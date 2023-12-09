@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/kaspanet/kaspad/util/bech32"
+	"github.com/zoomy-network/zoomyd/util/bech32"
 )
 
 var (
@@ -54,10 +54,10 @@ const (
 
 // Map from strings to Bech32 address prefix constants for parsing purposes.
 var stringsToBech32Prefixes = map[string]Bech32Prefix{
-	"kaspa":     Bech32PrefixKaspa,
-	"kaspadev":  Bech32PrefixKaspaDev,
-	"kaspatest": Bech32PrefixKaspaTest,
-	"kaspasim":  Bech32PrefixKaspaSim,
+	"zoomy":     Bech32PrefixKaspa,
+	"zoomydev":  Bech32PrefixKaspaDev,
+	"zoomytest": Bech32PrefixKaspaTest,
+	"zoomysim":  Bech32PrefixKaspaSim,
 }
 
 // ParsePrefix attempts to parse a Bech32 address prefix.

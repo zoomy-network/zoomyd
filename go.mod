@@ -1,4 +1,4 @@
-module github.com/kaspanet/kaspad
+module github.com/zoomy-network/zoomyd
 
 go 1.18
 
@@ -11,8 +11,6 @@ require (
 	github.com/golang/protobuf v1.5.2
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
-	github.com/kaspanet/go-muhash v0.0.4
-	github.com/kaspanet/go-secp256k1 v0.0.7
 	github.com/pkg/errors v0.9.1
 	github.com/syndtr/goleveldb v1.0.1-0.20190923125748-758128399b1d
 	github.com/tyler-smith/go-bip39 v1.1.0
@@ -21,10 +19,14 @@ require (
 	golang.org/x/term v0.5.0
 	google.golang.org/grpc v1.38.0
 	google.golang.org/protobuf v1.28.1
+	lukechampine.com/blake3 v1.2.1
 )
 
 require (
 	github.com/golang/snappy v0.0.1 // indirect
+	github.com/kaspanet/go-muhash v0.0.4 // indirect
+	github.com/kaspanet/go-secp256k1 v0.0.7 // indirect
+	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/text v0.7.0 // indirect

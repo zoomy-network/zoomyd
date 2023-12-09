@@ -1,12 +1,12 @@
 package rpchandlers
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/app/appmessage"
+	"github.com/zoomy-network/zoomyd/app/rpc/rpccontext"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/consensushashing"
+	"github.com/zoomy-network/zoomyd/domain/miningmanager/mempool"
+	"github.com/zoomy-network/zoomyd/infrastructure/network/netadapter/router"
 )
 
 // HandleSubmitTransaction handles the respectively named RPC command

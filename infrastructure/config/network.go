@@ -3,15 +3,15 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
 	"math/big"
 	"os"
 	"time"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/util/difficulty"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/dagconfig"
+	"github.com/zoomy-network/zoomyd/util/difficulty"
 )
 
 // NetworkFlags holds the network configuration, that is which network is selected.

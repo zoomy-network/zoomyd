@@ -4,9 +4,9 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/pow"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/pow"
 )
 
 // SolveBlock increments the given block's nonce until it matches the difficulty requirements in its bits field

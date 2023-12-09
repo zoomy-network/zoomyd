@@ -1,12 +1,12 @@
 package transactionvalidator
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/ruleerrors"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/subnetworks"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/transactionhelper"
 	"github.com/pkg/errors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/model/externalapi"
+	"github.com/zoomy-network/zoomyd/domain/consensus/ruleerrors"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/constants"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/subnetworks"
+	"github.com/zoomy-network/zoomyd/domain/consensus/utils/transactionhelper"
 )
 
 // ValidateTransactionInIsolation validates the parts of the transaction that can be validated context-free
