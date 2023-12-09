@@ -209,30 +209,11 @@ func (p *Params) PruningDepth() uint64 {
 // MainnetParams defines the network parameters for the main Kaspa network.
 var MainnetParams = Params{
 	K:           defaultGHOSTDAGK,
-	Name:        "kaspa-mainnet",
+	Name:        "zoomy-mainnet",
 	Net:         appmessage.Mainnet,
-	RPCPort:     "16110",
-	DefaultPort: "16111",
-	DNSSeeds: []string{
-		// This DNS seeder is run by Wolfie
-		"mainnet-dnsseed.kas.pa",
-		// This DNS seeder is run by Denis Mashkevich
-		"mainnet-dnsseed-1.kaspanet.org",
-		// This DNS seeder is run by Denis Mashkevich
-		"mainnet-dnsseed-2.kaspanet.org",
-		// This DNS seeder is run by Constantine Bytensky
-		"dnsseed.cbytensky.org",
-		// This DNS seeder is run by Georges Künzli
-		"seeder1.kaspad.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder2.kaspad.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder3.kaspad.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder4.kaspad.net",
-		// This DNS seeder is run by Tim
-		"kaspadns.kaspacalc.net",
-	},
+	RPCPort:     "18110",
+	DefaultPort: "18111",
+	DNSSeeds:    []string{},
 
 	// DAG parameters
 	GenesisBlock:                    &genesisBlock,
@@ -295,13 +276,9 @@ var TestnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "kaspa-testnet-10",
 	Net:         appmessage.Testnet,
-	RPCPort:     "16210",
-	DefaultPort: "16211",
-	DNSSeeds: []string{
-		"testnet-10-dnsseed.kas.pa",
-		// This DNS seeder is run by Tiram
-		"seeder1-testnet.kaspad.net",
-	},
+	RPCPort:     "18210",
+	DefaultPort: "18211",
+	DNSSeeds:    []string{},
 
 	// DAG parameters
 	GenesisBlock:                    &testnetGenesisBlock,
@@ -367,8 +344,8 @@ var SimnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "kaspa-simnet",
 	Net:         appmessage.Simnet,
-	RPCPort:     "16510",
-	DefaultPort: "16511",
+	RPCPort:     "18510",
+	DefaultPort: "18511",
 	DNSSeeds:    []string{}, // NOTE: There must NOT be any seeds.
 
 	// DAG parameters
@@ -427,8 +404,8 @@ var DevnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "kaspa-devnet",
 	Net:         appmessage.Devnet,
-	RPCPort:     "16610",
-	DefaultPort: "16611",
+	RPCPort:     "18610",
+	DefaultPort: "18611",
 	DNSSeeds:    []string{}, // NOTE: There must NOT be any seeds.
 
 	// DAG parameters
