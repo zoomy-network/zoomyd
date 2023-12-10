@@ -29,13 +29,13 @@ func isFieldExported(field reflect.StructField) bool {
 }
 
 // generateZoomydMessage generates a wrapped ZoomydMessage with the given `commandValue`
-func generateZoomydMessage(commandValue reflect.Value, commandDesc *commandDescription) (*protowire.ZoomydMessage, error) {
+func generateZoomydMessage(commandValue reflect.Value, commandDesc *commandDescription) (*protowire.KaspadMessage, error) {
 	commandWrapper := reflect.New(commandDesc.typeof)
 	unwrapCommandValue(commandWrapper).Set(commandValue)
 
-	zoomydMessage := reflect.New(reflect.TypeOf(protowire.ZoomydMessage{}))
+	zoomydMessage := reflect.New(reflect.TypeOf(protowire.KaspadMessage{}))
 	zoomydMessage.Elem().FieldByName("Payload").Set(commandWrapper)
-	return zoomydMessage.Interface().(*protowire.ZoomydMessage), nil
+	return zoomydMessage.Interface().(*protowire.KaspadMessage), nil
 }
 
 // pointerToValue returns a reflect.Value that represents a pointer to the given value

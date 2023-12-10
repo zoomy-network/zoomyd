@@ -12,7 +12,7 @@ import (
 	"github.com/zoomy-network/zoomyd/infrastructure/network/netadapter/server/grpcserver/protowire"
 )
 
-func parseCommand(args []string, commandDescs []*commandDescription) (*protowire.ZoomydMessage, error) {
+func parseCommand(args []string, commandDescs []*commandDescription) (*protowire.KaspadMessage, error) {
 	commandName, parameterStrings := args[0], args[1:]
 
 	var commandDesc *commandDescription
