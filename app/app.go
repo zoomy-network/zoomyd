@@ -37,7 +37,7 @@ var serviceDescription = &winservice.ServiceDescription{
 		"provides DAG services to applications.",
 }
 
-type ZoomydApp struct {
+type zoomydApp struct {
 	cfg *config.Config
 }
 
@@ -55,7 +55,7 @@ func StartApp() error {
 	defer logger.BackendLog.Close()
 	defer panics.HandlePanic(log, "MAIN", nil)
 
-	app := &ZoomydApp{cfg: cfg}
+	app := &zoomydApp{cfg: cfg}
 
 	// Call serviceMain on Windows to handle running as a service. When
 	// the return isService flag is true, exit now since we ran as a
@@ -73,7 +73,7 @@ func StartApp() error {
 	return app.main(nil)
 }
 
-func (app *ZoomydApp) main(startedChan chan<- struct{}) error {
+func (app *zoomydApp) main(startedChan chan<- struct{}) error {
 	// Get a channel that will be closed when a shutdown signal has been
 	// triggered either from an OS signal such as SIGINT (Ctrl+C) or from
 	// another subsystem such as the RPC server.
